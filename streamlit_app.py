@@ -16,13 +16,13 @@ def app():
     
     st.title('Symbol Classification')
     st.subheader('by Louie F. Cervantes M.Eng., WVSU College of ICT')
-    st.write('The naive bayes classifierperforms well on overlapped data.')
-
+    
     st.write('Dataset description:')
 
     st.write('Number of features: 64')
     text = """Feature representation: Binary values (1 or 0) representing the 8x8 pixels of an image.
-        Target variable: This could be a single categorical variable representing the class of the image (e.g., digit recognition, traffic sign classification).
+        Target variable: A single categorical variable representing the class 
+        of the image (e.g., digit recognition, traffic sign classification).
         Potential Applications:"""
     st.write(text)
     st.write('Digit recognition: Identifying handwritten digits from 0-9.')
